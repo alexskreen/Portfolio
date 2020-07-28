@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Tab, Tabs} from 'react-mdl';
+import {Tab, Tabs, Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, IconButton, CardText } from 'react-mdl';
 
 class Projects extends Component {
   constructor(props) {
@@ -11,7 +11,28 @@ class Projects extends Component {
     if (this.state.activeTab === 0) {
       return (
         <div>
-          <h1>This is React</h1>
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#ffff",
+                height: "176px",
+                background:
+                  "url(https://cdn.worldvectorlogo.com/logos/react.svg) center/cover",
+              }}
+            >
+              React Project #1
+            </CardTitle>
+            <CardText>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>GitHub</Button>
+              <Button colored>GitHub</Button>
+            </CardActions>
+          </Card>
         </div>
       );
     } else if (this.state.activeTab === 1) {
@@ -57,7 +78,13 @@ class Projects extends Component {
         </Tabs>
 
         <section className="projects-grid">
-          {this.toggleCategories()}
+          <Grid className="projects-grid">
+            <Cell col={12}>
+              <div className="content">
+                {this.toggleCategories()}
+              </div>
+            </Cell>
+          </Grid>
         </section>
       </div>
     );
