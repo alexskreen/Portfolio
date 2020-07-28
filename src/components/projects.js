@@ -7,6 +7,40 @@ class Projects extends Component {
     this.state = {activeTab: 0 };
   }
 
+  toggleCategories(){
+    if (this.state.activeTab === 0) {
+      return (
+        <div>
+          <h1>This is React</h1>
+        </div>
+      );
+    } else if (this.state.activeTab === 1) {
+      return (
+        <div>
+          <h1>This is Unity</h1>
+        </div>
+      );
+    } else if (this.state.activeTab === 2) {
+      return (
+        <div>
+          <h1>This is JavaScript</h1>
+        </div>
+      );
+    } else if (this.state.activeTab === 3) {
+      return (
+        <div>
+          <h1>This is C#</h1>
+        </div>
+      );
+    } else if (this.state.activeTab === 4) {
+      return (
+        <div>
+          <h1>This is MySQL</h1>
+        </div>
+      );
+    }
+  }
+
   render() {
     return (
       <div className="category-tabs">
@@ -21,6 +55,10 @@ class Projects extends Component {
           <Tab>C#</Tab>
           <Tab>MySQL</Tab>
         </Tabs>
+
+        <section className="projects-grid">
+          {this.toggleCategories()}
+        </section>
       </div>
     );
   }
