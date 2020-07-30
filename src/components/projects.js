@@ -14,10 +14,10 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
-                color: "#ffff",
+                color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://cdn.worldvectorlogo.com/logos/react.svg) center/cover",
+                  "url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center/cover",
               }}
             >
               React Project #1
@@ -29,9 +29,12 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>GitHub</Button>
-              <Button colored>GitHub</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>LiveDemo</Button>
             </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
           </Card>
         </div>
       );
