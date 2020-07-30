@@ -44,6 +44,28 @@
   margin-bottom: 20px;
 }
 
+.contact-grid h2 {
+  /* this font sucks. please change */
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+/* this hr styling sucks. change it */
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 40px;
+  padding-right: 2rem;
+}
+
 .avatar-img {
   height: 250px;
   padding-top: 5pm;
