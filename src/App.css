@@ -16,6 +16,11 @@
   height: 100%;
 }
 
+.projects-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
 .avatar-img {
   height: 250px;
   padding-top: 5pm;
