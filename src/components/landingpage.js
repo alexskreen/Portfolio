@@ -17,12 +17,12 @@ class LandingPage extends Component {
 
               <hr />
 
-              <p>HTML/CSS | JavaScript | React | React Native | NodeJS | C#</p>
+              <p>HTML/CSS | JavaScript | React | NodeJS | C#</p>
 
               <div className="social-links">
                 {/* LinkedIn */}
                 <a
-                  href="http://google.com"
+                  href="https://www.linkedin.com/in/alexskreen/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -31,7 +31,7 @@ class LandingPage extends Component {
 
                 {/* GitHub */}
                 <a
-                  href="http://google.com"
+                  href="https://github.com/alexskreen"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -40,20 +40,11 @@ class LandingPage extends Component {
 
                 {/* Instagram */}
                 <a
-                  href="http://google.com"
+                  href="https://www.instagram.com/bearsbetterhavemyhoney/?hl=en"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <i className="fa fa-instagram" aria-hidden="true" />
-
-                  {/* Pied Piper */}
-                  <a
-                    href="http://google.com"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <i className="fa fa-pied-piper" aria-hidden="true" />
-                  </a>
                 </a>
               </div>
             </div>

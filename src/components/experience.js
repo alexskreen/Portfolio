@@ -12,8 +12,12 @@ class Experience extends Component {
         </Cell>
         <Cell col={8}>
           <h4 style={{ marginTop: "0px" }}>{this.props.companyName}</h4>
-          <h4 style={{ marginTop: "0px" }}>{this.props.companyPosition}</h4>
-          <p>{this.props.companyDescription}</p>
+          <h5 style={{ marginTop: "0px" }}>{this.props.companyPosition}</h5>
+          <ul>
+            <li>{this.props.companyDescription1}</li>
+            <li>{this.props.companyDescription2}</li>
+            <li>{this.props.companyDescription3}</li>
+          </ul>
         </Cell>
       </Grid>
     );

@@ -40,14 +40,26 @@ class Resume extends Component {
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
           </Cell>
           <Cell className="resume-right-col" col={8}>
-            <h2>Experience</h2>
+            <h3>Experience</h3>
+
+            <Experience
+              startYear={2010}
+              endYear={2020}
+              companyName="Theorem Agency"
+              companyPosition="Software Engineer Intern"
+              companyDescription1="Created new Pre/Post game site for the Portland Trailblazers using Drupal"
+              companyDescription2="Developed internal HR Portal using React"
+              companyDescription3="Updated Ford and Hyundai sites using DealerOn CMS"
+            />
 
             <Experience
               startYear={2019}
               endYear={2020}
               companyName="Deltek"
               companyPosition="Account Executive"
-              companyDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              companyDescription1="Specialized in helping small to mid-sized firms streamline their ERP and project management systems"
+              companyDescription2="Full cycle SaaS sales including prospecting, technical demo, services, and implementation"
+              companyDescription3="Developed new email marketing plan implemented by the team to drive more opportunities"
             />
 
             <Experience
@@ -55,7 +67,9 @@ class Resume extends Component {
               endYear={2019}
               companyName="ShopKeep"
               companyPosition="Senior Account Executive"
-              companyDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              companyDescription1="Generated over 6 million net bookings by cultivating and maintaining relationships with SMBs and franchises."
+              companyDescription2="Trained 15 sales development representatives and new specialists."
+              companyDescription3="Assisted management and sales analytics teams in creating a new consultative sales strategy."
             />
 
             <Experience
@@ -63,7 +77,9 @@ class Resume extends Component {
               endYear={2014}
               companyName="Enterprise Rent-A-Car"
               companyPosition="Assistant Manager"
-              companyDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              companyDescription1="Promoted into the Best Person Program at the Portland International Airport."
+              companyDescription2="Top 10 of 100+ trainees in sales every month in Oregon and Washington."
+              companyDescription3="Passed Management Qualification Interview and completed Management Trainee Program"
             />
 
             {/* Change the color of this hr to something blueish */}
