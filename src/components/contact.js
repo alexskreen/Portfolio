@@ -8,6 +8,7 @@ class Contact extends Component {
         <Grid className="contact-grid">
           <Cell col={6}>
             <h2>Alex Skreen</h2>
+            {/* This is a default avatar. Change this */}
             <img
               src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
               alt="avatar"
