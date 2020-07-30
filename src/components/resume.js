@@ -90,23 +90,39 @@ class Resume extends Component {
               startYear={2020}
               endYear={2020}
               schoolName="Epicodus"
-              schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              schoolDescription1="Certificate in mobile and web development."
+              schoolDescription2="800 hours of pair  programing."
+              schoolDescription3="Passed weekly code reviews for individual and team projects."
             />
 
             <Education
               startYear={2008}
               endYear={2013}
               schoolName="Oregon State University"
-              schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              schoolDescription1="BS in Marketing"
+              schoolDescription2="President of the Oregon State Hockey Club"
+              schoolDescription3="Vice President of Phi Kappa Psi Fratnerity"
             />
 
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Skills</h2>
-            <Skills skill="javascript" progress={75} />
-            <Skills skill="HTML" progress={90} />
-            <Skills skill="C#" progress={70} />
-            <Skills skill="React" progress={50} />
-            <Skills skill="Unity" progress={60} />
+            <Skills
+              skill1="HTML"
+              skill2="CSS/SCSS"
+              skill3="Javascript"
+              skill4="React"
+              skill5="Redux"
+              skill6="Unity"
+              skill7="NodeJS"
+              skill8="jQuery"
+              skill9="Git"
+              skill10="Npm"
+              skill11="Webpack"
+              skill12="C#"
+              skill13="Salesforce"
+              skill14="Microsoft Teams"
+              skill15="Asana"
+            />
           </Cell>
         </Grid>
       </div>
