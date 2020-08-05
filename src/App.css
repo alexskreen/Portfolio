@@ -32,19 +32,6 @@
   padding-top: 2em;
 }
 
-/* Resume page CSS */
-
-.resume-right-col {
-  background: #27221F;
-  color: white;
-  padding: 2em;
-}
-
-.resume-body img {
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-
 .contact-grid {
   text-align: center;
   justify-content: center;
@@ -81,6 +68,36 @@
   height: 250px;
   padding-top: 5pm;
   border-radius: 150px;;
+}
+
+/* Resume page CSS */
+
+.resume-right-col {
+  background: #27221F;
+  color: white;
+  padding: 2em;
+}
+
+.resume-body img {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.about-address p{
+  margin: 0;
+}
+
+/* About me page CSS */
+
+.about-right-col {
+  background: #27221F;
+  color: white;
+  padding: 2em;
+}
+
+.about-body img {
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .banner-text {
